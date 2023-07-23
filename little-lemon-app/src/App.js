@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route,} from "react-router-dom";
 
 import Nav from './components/Navigation';
 import Header from './components/Header';
@@ -19,7 +19,6 @@ function App() {
         <Route path="/" element={<ReservationPage />} />
         <Route path="/payment" element={<PaymentPage />} />
         <Route path="/confirmation" element={<ConfirmationPage />} />
-
       </Routes>
       <Footer/>
       </>

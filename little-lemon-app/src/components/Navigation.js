@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from './Logo.svg';
+import Basket from './Basket.svg'
 
 function Nav () {
     return (
@@ -14,6 +15,9 @@ function Nav () {
           <li><a href='/order'>Order Online</a></li>
           <li><a href='/login'>Login</a></li>
         </ul>
+        <a href='/checkout'>
+          <img src={Basket} alt="Basket Icon" width="46px" height="46"/>
+        </a>
       </nav>
      )
   }
