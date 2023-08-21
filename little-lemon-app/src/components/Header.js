@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from './restaurant.jpg'
+import Image from './restaurant 1.png'
 
 
 function Header () {
