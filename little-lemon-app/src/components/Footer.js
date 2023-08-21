@@ -4,7 +4,7 @@ import Image from './footer-logo.png'
 
 const Footer = ()=> {
     return (
-        <footer>
+        <footer className='footer-container'>
         <div className='container'>
             <div className='footer-logo'>
                 <img src={Image} alt='Little Lemon Logo' width="112px" height="158px"/>
@@ -21,6 +21,7 @@ const Footer = ()=> {
                 </ul>
             </nav>
             <div className='footer-contact'>
+                <h6>Contact</h6>
                 <p>123 Lemon Street, Chicago, US</p>
                 <p>+1 787-123-4567</p>
                 <p>info@lemon.com</p>
