@@ -5,9 +5,81 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: black;
+  background-color: #f9f9f9;
+  display: block;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-logo{
+  display: flex;
+  width: 237px;
+  height: 64px;
+  padding-right: 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 27px;
+}
+#nav-links{
+  display: flex;
+  list-style: none;
+  width: 640px;
+  align-items: flex-start;
+  gap: 28px;
+  padding-top: 45px;
+}
+#nav-links a {
+  color: black;
+  text-decoration: none; /* This removes underlines from the links */
+}
+.nav-link {
+  color: black;
+  text-decoration: none;
+  font-family: Markazi Text;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-cart-logo{
+  padding-top: 33px;
+
+}
+#nav-links li, Link{
+  font-family: Markazi Text;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.header-container{
+  background: #495E57;
+  width: 1440px;
+  height: 142px;
+  flex-shrink: 0;
+  padding-top: 16px;
+  padding-left: 288px;
+  padding-bottom: 33px;
+}
+
+.header-container h1{
+  color: #F4CE14;
+font-family: Markazi Text;
+font-size: 54px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.header-container h3{
+  color: #FFF;
+  font-family: Markazi Text;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 0;
 }

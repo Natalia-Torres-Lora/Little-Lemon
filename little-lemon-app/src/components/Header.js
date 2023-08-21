@@ -5,7 +5,7 @@ import Image from './restaurant.jpg'
 function Header () {
     return (
         <>
-        <div>
+        <div className='header-container'>
             <h1>Little Lemon</h1>
             <h3>Chicago</h3>
         </div>
