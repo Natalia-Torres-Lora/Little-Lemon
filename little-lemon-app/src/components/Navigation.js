@@ -22,7 +22,7 @@ function Nav () {
           </div>
           <div className='nav-cart-logo'>
          <a href='/checkout'>
-          <img src={Basket} alt="Basket Icon" width="46px" height="46"/>
+          <img src={Basket} alt="Basket Icon" width="43px" height="43"/>
         </a>
         </div>
         </div>
