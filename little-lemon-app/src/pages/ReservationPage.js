@@ -1,3 +1,4 @@
+//ReservationPage.js
 import React from 'react';
 import ButtonComponent from '../components/ButtonComponent';
 import Arrow from './Images/ArrowLeftCircle.svg'
@@ -12,10 +13,15 @@ function ReservationPage () {
                 </button>
             </div>
             <div>
+                <h2>Reserve Your Table</h2>
+                <h4>Special Instructions</h4>
+            </div>
+            <div>
+                <h2>Contact Information</h2>
+            </div>
+            <div>
                 <ButtonComponent text="Continue to Payment" destination="/payment" />
             </div>
-            <h2>Reserve your Table</h2>
-
         </main>
      )
   }
