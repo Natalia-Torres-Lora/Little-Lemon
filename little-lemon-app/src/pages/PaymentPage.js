@@ -3,7 +3,6 @@ import ButtonComponent from '../components/ButtonComponent';
 import Arrow from './Images/ArrowLeftCircle.svg'
 
 
-
 function PaymentPage () {
     return (
         <main>
@@ -16,8 +15,24 @@ function PaymentPage () {
                 <p>Hello payment</p>
             </div>
             <div>
-                <ButtonComponent text="Confirm Booking" destination="/confirmation"/>
-            </div>
+            <form>
+                <label htmlFor="paymentMethod">Payment Method:</label>
+                <select id="paymentMethod" name="paymentMethod">
+                    <option value="creditCard">Credit Card</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="bankTransfer">Bank Transfer</option>
+                </select>
+                <label htmlFor="cardNumber">Card Number:</label>
+                <input type="text" id="cardNumber" name="cardNumber" />
+                <label htmlFor="cardholderName">Cardholder Name:</label>
+                <input type="text" id="cardholderName" name="cardholderName" />
+                <label htmlFor="expirationDate">Expiration Date:</label>
+                <input type="date" id="expirationDate" name="expirationDate" />
+                <label htmlFor="securityCode">Security Code:</label>
+                <input type="text" id="securityCode" name="securityCode" />
+                <ButtonComponent text="Confirm Booking" destination="/confirmation" />
+            </form>
+        </div>
         </main>
      )
   }
