@@ -7,9 +7,9 @@ function ReservationPage () {
     return (
         <main>
             <div className='prev-page-logo'>
-                <a href='little-lemon/home'>
-                    <img src={Arrow} alt='Previus Page Button'/>
-                </a>
+                 <button onClick={() => window.history.back()}>
+                    <img src={Arrow} alt='Previous Page Button'/>
+                </button>
             </div>
             <div>
                 <ButtonComponent text="Continue to Payment" destination="/payment" />
