@@ -12,9 +12,6 @@ function PaymentPage () {
                 </button>
             </div>
             <div>
-                <p>Hello payment</p>
-            </div>
-            <div>
             <form>
                 <label htmlFor="paymentMethod">Payment Method:</label>
                 <select id="paymentMethod" name="paymentMethod">

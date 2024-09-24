@@ -51,20 +51,47 @@ function ReservationPage () {
                         <option value='other'>Other</option>
                     </select>
                     <fieldset>
-  <legend>Choose your seating option:</legend>
-  <label>
-    <input type="radio" name="seating" value="outdoor" /> Outdoor
-  </label>
-  <br></br>
-  <label>
-    <input type="radio" name="seating" value="indoor" /> Indoor
-  </label>
-</fieldset>
+                        <legend>Choose your seating option:</legend>
+                        <label>
+                            <input type="radio" name="seating" value="outdoor" /> Outdoor
+                        </label>
+                        <br></br>
+                        <label>
+                            <input type="radio" name="seating" value="indoor" /> Indoor
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Special Instructions:</legend>
+                        <textarea name="special-instructions" rows="4" cols="50" placeholder="Enter any specifications for your reservation..."></textarea>
+                    </fieldset>
                 </form>
-                <h4>Special Instructions</h4>
             </div>
             <div>
                 <h2>Contact Information</h2>
+            </div>
+            <div>
+                <form>
+                    <label htmlFor='firstName'>First Name</label>
+                    <input type='text' id='firstName' name='firstName' />
+
+                    <label htmlFor='lastName'>Last Name</label>
+                    <input type='text' id='lastName' name='lastName' />
+
+                    <label htmlFor='email'>Email</label>
+                    <input type='text' id='email' name='email' />
+
+                    <label htmlFor='phoneNumber'>Phone Number</label>
+                    <input type='text' id='phoneNumber' name='phoneNumber' />
+
+                    <label>
+                            <input type="radio" name="notification" value="email" /> I wish to recive email notifications
+                    </label>
+                    <br></br>
+                    <label>
+                            <input type="radio" name="notification" value="phone" /> I wish to recive text notifications
+                    </label>
+
+                </form>
             </div>
             <div>
                 <ButtonComponent text="Continue to Payment" destination="/payment" />
