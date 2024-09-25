@@ -12,10 +12,10 @@ function Nav () {
           </div>
           <div className='nav-links'>
           <ul id='nav-links'>
-              <li><a href='/home'>Home</a></li>
+              <Link to="/" className='nav-link'>Home</Link>
               <li><a href='/about'>About</a></li>
               <li><a href='/menu'>Menu</a></li>
-              <Link to="/" className='nav-link'>Reservations</Link>
+              <Link to="/reservation" className='nav-link'>Reservations</Link>
               <li><a href='/order'>Order Online</a></li>
               <li><a href='/login'>Login</a></li>
             </ul>

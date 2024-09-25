@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import ReservationPage from './pages/ReservationPage';
 import PaymentPage from './pages/PaymentPage';
 import ConfirmationPage from './pages/ConfirmationPage'
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <Nav/>
       {/* <Header/> */}
       <Routes>
-        <Route path="/" element={<ReservationPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/reservation" element={<ReservationPage />} />
         <Route path="/payment" element={<PaymentPage />} />
         <Route path="/confirmation" element={<ConfirmationPage />} />
       </Routes>

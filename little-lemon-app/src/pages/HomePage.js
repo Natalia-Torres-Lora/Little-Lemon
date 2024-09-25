@@ -6,6 +6,7 @@ function HomePage() {
     return(
         <main>
             <h1>Home Page</h1>
+            <p> irgeiuybgwybi rygfouyerg8ybf7r weygfywuefb783e </p>
         </main>
     )
 }
