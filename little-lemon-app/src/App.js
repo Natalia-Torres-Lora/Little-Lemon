@@ -14,7 +14,7 @@ function App() {
     <Router>
       <>
       <Nav/>
-      <Header/>
+      {/* <Header/> */}
       <Routes>
         <Route path="/" element={<ReservationPage />} />
         <Route path="/payment" element={<PaymentPage />} />

@@ -1,11 +1,13 @@
 import React from 'react';
 import ButtonComponent from '../components/ButtonComponent';
 import Arrow from './Images/ArrowLeftCircle.svg'
+import Header from '../components/Header';
 
 
 function PaymentPage () {
     return (
         <main>
+            <Header/>
             <div className='prev-page-logo'>
                  <button onClick={() => window.history.back()}>
                     <img src={Arrow} alt='Previous Page Button'/>

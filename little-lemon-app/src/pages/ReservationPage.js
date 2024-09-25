@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import ButtonComponent from '../components/ButtonComponent';
 import Arrow from './Images/ArrowLeftCircle.svg'
+import Header from '../components/Header';
 
 
 function ReservationPage () {
@@ -11,6 +12,7 @@ function ReservationPage () {
 
     return (
         <main>
+            <Header/>
             <div className='prev-page-logo'>
                  <button onClick={() => window.history.back()}>
                     <img src={Arrow} alt='Previous Page Button'/>
