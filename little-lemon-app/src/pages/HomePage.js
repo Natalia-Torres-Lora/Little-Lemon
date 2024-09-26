@@ -69,8 +69,37 @@ function HomePage() {
                     <h2>Testimonials</h2>
                 </div>
                 <div>
-                    <div className='rating'>
-
+                    <div className='ratings-cards'>
+                        <h6>4/5</h6>
+                        <div className='avatar'>
+                            <img src={avatar1} alt='customer avatar' style={{ width: '30px', height: '30px' }} />
+                        </div>
+                        <h6>Bob</h6>
+                        <h7>Reviw txt</h7>
+                    </div>
+                    <div className='ratings-cards'>
+                        <h6>5/5</h6>
+                        <div className='avatar'>
+                            <img src={avatar2} alt='customer avatar' style={{ width: '30px', height: '30px' }} />
+                        </div>
+                        <h6>Mark</h6>
+                        <h7>Reviw txt</h7>
+                    </div>
+                    <div className='ratings-cards'>
+                        <h6>5/5</h6>
+                        <div className='avatar'>
+                            <img src={avatar3} alt='customer avatar' style={{ width: '30px', height: '30px' }} />
+                        </div>
+                        <h6>Maria</h6>
+                        <h7>Reviw txt</h7>
+                    </div>
+                    <div className='ratings-cards'>
+                        <h6>5/5</h6>
+                        <div className='avatar'>
+                            <img src={avatar4} alt='customer avatar' style={{ width: '30px', height: '30px' }} />
+                        </div>
+                        <h6>Juana</h6>
+                        <h7>Reviw txt</h7>
                     </div>
 
                 </div>
