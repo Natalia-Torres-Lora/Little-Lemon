@@ -4,6 +4,13 @@ import ButtonComponent from '../components/ButtonComponent';
 import Food from './Images/little-lemon-food-1.jpg'
 import About1 from './Images/little-lemon-people-1.png'
 import About2 from './Images/little-lemon-people-2.png'
+import card1 from './Images/greekSalad.png'
+import card2 from './Images/bruchetta.png'
+import card3 from './Images/lemonDessert.png'
+import avatar1 from './Images/avatar1.png'
+import avatar2 from './Images/avatar2.jpg'
+import avatar3 from './Images/avatar3.jpg'
+import avatar4 from './Images/avatar4.jpg'
 
 
 function HomePage() {
@@ -31,33 +38,42 @@ function HomePage() {
                 </div>
                 <div>
                     <div className="card" style={{ width: '18rem' }}>
-                        <img src="..." class="card-img-top" alt="..." />
+                        <img src={card1} class="card-img-top" alt="Greek Salad apetizer" />
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Greek salad</h5>
+                            <p class="card-text">The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. </p>
+                            <a href="#" class="btn btn-primary">Order Delivery</a>
                         </div>
                     </div>
                     <div className="card" style={{ width: '18rem' }}>
-                        <img src="..." class="card-img-top" alt="..." />
+                        <img src={card2} class="card-img-top" alt="Bruchetta apetizer" />
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Bruchetta</h5>
+                            <p class="card-text">Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil. </p>
+                            <a href="#" class="btn btn-primary">Order Delivery</a>
                         </div>
                     </div>
                     <div className="card" style={{ width: '18rem' }}>
-                        <img src="..." class="card-img-top" alt="..." />
+                        <img src={card3} class="card-img-top" alt="Lemon Dessert apetizer" />
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Lemon Dessert</h5>
+                            <p class="card-text">This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.</p>
+                            <a href="#" class="btn btn-primary">Order Delivery</a>
                         </div>
                     </div>
                 </div>
 
             </div>
             <div className='testimonials'>
+                <div>
+                    <h2>Testimonials</h2>
+                </div>
+                <div>
+                    <div className='rating'>
+
+                    </div>
+
+                </div>
 
             </div>
             <div className='about'>
