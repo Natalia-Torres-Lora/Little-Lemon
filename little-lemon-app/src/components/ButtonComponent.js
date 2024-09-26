@@ -10,7 +10,7 @@ const ButtonComponent = ({ text, destination }) => {
   };
 
   return (
-    <button onClick={handleClick}>
+    <button className='button' onClick={handleClick}>
       {text}
     </button>
   );
