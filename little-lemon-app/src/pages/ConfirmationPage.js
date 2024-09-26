@@ -14,7 +14,7 @@ function ConfirmationPage () {
                 <h6>Booking number 123456</h6>
             </div>
             <div>
-                <ButtonComponent text="Onlien Menu" destination="" />
+                <ButtonComponent text="Onlien Menu" destination="/" />
             </div>
         </main>
      )
