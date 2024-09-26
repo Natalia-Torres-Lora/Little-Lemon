@@ -40,7 +40,10 @@ function HomePage() {
                     <div className="card" style={{ width: '18rem' }}>
                         <img src={card1} class="card-img-top" alt="Greek Salad apetizer" />
                         <div class="card-body">
-                            <h5 class="card-title">Greek salad</h5>
+                            <div className="d-flex justify-content-between">
+                                <h5 class="card-title">Greek salad</h5>
+                                <p className='card-price'>$12.99</p>
+                            </div>
                             <p class="card-text">The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. </p>
                             <a href="#" class="btn btn-primary">Order Delivery</a>
                         </div>
@@ -48,7 +51,10 @@ function HomePage() {
                     <div className="card" style={{ width: '18rem' }}>
                         <img src={card2} class="card-img-top" alt="Bruchetta apetizer" />
                         <div class="card-body">
+                        <div className="d-flex justify-content-between">
                             <h5 class="card-title">Bruchetta</h5>
+                            <p className='card-price'>$5.99</p>
+                        </div>
                             <p class="card-text">Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil. </p>
                             <a href="#" class="btn btn-primary">Order Delivery</a>
                         </div>
@@ -56,7 +62,10 @@ function HomePage() {
                     <div className="card" style={{ width: '18rem' }}>
                         <img src={card3} class="card-img-top" alt="Lemon Dessert apetizer" />
                         <div class="card-body">
-                            <h5 class="card-title">Lemon Dessert</h5>
+                            <div className='d-flex justify-content-between'>
+                                <h5 class="card-title">Lemon Dessert</h5>
+                                <p className='card-price'>$5.00</p>
+                            </div>
                             <p class="card-text">This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.</p>
                             <a href="#" class="btn btn-primary">Order Delivery</a>
                         </div>
