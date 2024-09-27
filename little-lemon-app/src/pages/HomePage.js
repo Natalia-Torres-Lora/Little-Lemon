@@ -24,7 +24,7 @@ function HomePage() {
                 <div className='introduction'>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div className='intruduction-butt'>
+                <div className='introduction-butt'>
                     <ButtonComponent text='Reserve a Table' destination='/reservation' />
                 </div>
                 {/* <div>

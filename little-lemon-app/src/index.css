@@ -135,11 +135,11 @@ body {
   height: 60px;
 }
 .button:hover {
-  background-color: #495E57;
+  background-color: #EE9972;
   color: #FFFFFF;
 }
 .button:active{
-  background-color: #EE9972;
+  background-color: #495E57;
   color: #000000;
 }
 /* Home Page first Header  */
@@ -152,6 +152,12 @@ body {
   padding-top: 47px;
   padding-left: 290px;
   font-family: "Markazi Text";
+}
+@media (max-width: 768px) {
+  .home-header {
+    padding-left: 0; /* Remove padding on smaller screens */
+    text-align: center; /* Center the content */
+  }
 }
 .home-header h1{
   color: #F4CE14;
@@ -181,6 +187,9 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 140.625%; /* 25.313px */
+}
+.introduction-butt{
+  padding-top: 25px;
 }
 
 
