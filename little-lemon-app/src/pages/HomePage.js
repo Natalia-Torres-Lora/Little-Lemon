@@ -21,15 +21,15 @@ function HomePage() {
                     <h1>Little Lemon</h1>
                     <h3>Chicago</h3>
                 </div>
-                <div>
+                <div className='introduction'>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div>
+                <div className='intruduction-butt'>
                     <ButtonComponent text='Reserve a Table' destination='/reservation' />
                 </div>
-                <div>
+                {/* <div>
                     <img src={Food} alt='Restaurant appetizer' />
-                </div>
+                </div> */}
             </div>
             <div className='specials'>
                 <div>

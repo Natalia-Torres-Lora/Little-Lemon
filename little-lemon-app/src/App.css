@@ -36,25 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-/* Button custumize hover and click effect */
-.button {
-  background-color: #F4CE14;
-  border: none;
-  color: #000000;
-  text-align: center;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 550;
-  border-radius: 5px;
-  width: 200px;
-  height: 60px;
-}
-.button:hover {
-  background-color: #495E57;
-  color: #FFFFFF;
-}
-.button:active{
-  background-color: #EE9972;
-  color: #000000;
-}
