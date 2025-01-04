@@ -36,7 +36,7 @@ function HomePage() {
                     <h1>Specials</h1>
                     <ButtonComponent text='Online Menu' destination='' />
                 </div>
-                <div>
+                <div className='specials-cards'>
                     <div className="card" style={{ width: '18rem' }}>
                         <img src={card1} class="card-img-top" alt="Greek Salad apetizer" />
                         <div class="card-body">
@@ -44,7 +44,7 @@ function HomePage() {
                                 <h5 class="card-title">Greek salad</h5>
                                 <p className='card-price'>$12.99</p>
                             </div>
-                            <p class="card-text">The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. </p>
+                            <p class="card-text">The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, with garlic and croutons. </p>
                             <a href="#" class="btn btn-primary">Order Delivery</a>
                         </div>
                     </div>
@@ -71,48 +71,35 @@ function HomePage() {
                         </div>
                     </div>
                 </div>
-
             </div>
             <div className='testimonials'>
-                <div>
-                    <h2>Testimonials</h2>
+                <h2>Testimonials</h2>
+                <div className='testimonial-container'>
+                    <div className='testimonial'>
+                        <div className='rating'>4/5</div>
+                        <img src={avatar1} alt='customer avatar' />
+                        <h3>Bob</h3>
+                        <p>Review text</p>
+                    </div>
+                    <div className='testimonial'>
+                        <div className='rating'>5/5</div>
+                        <img src={avatar2} alt='customer avatar' />
+                        <h3>Mark</h3>
+                        <p>Review text</p>
+                    </div>
+                    <div className='testimonial'>
+                        <div className='rating'>5/5</div>
+                        <img src={avatar3} alt='customer avatar' />
+                        <h3>Maria</h3>
+                        <p>Review text</p>
+                    </div>
+                    <div className='testimonial'>
+                        <div className='rating'>5/5</div>
+                        <img src={avatar4} alt='customer avatar' />
+                        <h3>Juana</h3>
+                        <p>Review text</p>
+                    </div>
                 </div>
-                <div>
-                    <div className='ratings-cards'>
-                        <h6>4/5</h6>
-                        <div className='avatar'>
-                            <img src={avatar1} alt='customer avatar' style={{ width: '30px', height: '30px' }} />
-                        </div>
-                        <h6>Bob</h6>
-                        <h7>Reviw txt</h7>
-                    </div>
-                    <div className='ratings-cards'>
-                        <h6>5/5</h6>
-                        <div className='avatar'>
-                            <img src={avatar2} alt='customer avatar' style={{ width: '30px', height: '30px' }} />
-                        </div>
-                        <h6>Mark</h6>
-                        <h7>Reviw txt</h7>
-                    </div>
-                    <div className='ratings-cards'>
-                        <h6>5/5</h6>
-                        <div className='avatar'>
-                            <img src={avatar3} alt='customer avatar' style={{ width: '30px', height: '30px' }} />
-                        </div>
-                        <h6>Maria</h6>
-                        <h7>Reviw txt</h7>
-                    </div>
-                    <div className='ratings-cards'>
-                        <h6>5/5</h6>
-                        <div className='avatar'>
-                            <img src={avatar4} alt='customer avatar' style={{ width: '30px', height: '30px' }} />
-                        </div>
-                        <h6>Juana</h6>
-                        <h7>Reviw txt</h7>
-                    </div>
-
-                </div>
-
             </div>
             <div className='about'>
                 <div>
